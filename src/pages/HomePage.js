@@ -125,7 +125,7 @@ function HomePage() {
                     height: "100%",
                   }}
                 >
-                  Diet
+                  Nutrition
                 </Typography>
               </Paper>
             </Grid>

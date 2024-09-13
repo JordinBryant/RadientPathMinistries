@@ -19,7 +19,16 @@ function Sidebar() {
   const list = () => (
     <List>
       <ListItem button component={Link} to="/" onClick={toggleDrawer(false)}>
-        <ListItemText primary="Home" />
+        <ListItemText
+          primary="Home"
+          sx={{
+            fontWeight: "bold",
+            fontStyle: "italic",
+            fontSize: "1.2rem",
+            color: "black",
+            textShadow: "1px 1px 2px white, -1px -1px 2px white",
+          }}
+        />
       </ListItem>
       <ListItem
         button
@@ -27,7 +36,16 @@ function Sidebar() {
         to="/hair-care"
         onClick={toggleDrawer(false)}
       >
-        <ListItemText primary="Hair Care" />
+        <ListItemText
+          primary="Hair Care"
+          sx={{
+            fontWeight: "bold",
+            fontStyle: "italic",
+            fontSize: "1.2rem",
+            color: "black",
+            textShadow: "1px 1px 2px white, -1px -1px 2px white",
+          }}
+        />
       </ListItem>
       <ListItem
         button
@@ -35,7 +53,16 @@ function Sidebar() {
         to="/biblical-diet"
         onClick={toggleDrawer(false)}
       >
-        <ListItemText primary="Biblical Diet" />
+        <ListItemText
+          primary="Biblical Diet"
+          sx={{
+            fontWeight: "bold",
+            fontStyle: "italic",
+            fontSize: "1.2rem",
+            color: "black",
+            textShadow: "1px 1px 2px white, -1px -1px 2px white",
+          }}
+        />
       </ListItem>
       <ListItem
         button
@@ -43,7 +70,16 @@ function Sidebar() {
         to="/biblical-wealth"
         onClick={toggleDrawer(false)}
       >
-        <ListItemText primary="Biblical Wealth" />
+        <ListItemText
+          primary="Biblical Wealth"
+          sx={{
+            fontWeight: "bold",
+            fontStyle: "italic",
+            fontSize: "1.2rem",
+            color: "black",
+            textShadow: "1px 1px 2px white, -1px -1px 2px white",
+          }}
+        />
       </ListItem>
       <ListItem
         button
@@ -51,7 +87,16 @@ function Sidebar() {
         to="/about"
         onClick={toggleDrawer(false)}
       >
-        <ListItemText primary="About" />
+        <ListItemText
+          primary="About"
+          sx={{
+            fontWeight: "bold",
+            fontStyle: "italic",
+            fontSize: "1.2rem",
+            color: "black",
+            textShadow: "1px 1px 2px white, -1px -1px 2px white",
+          }}
+        />
       </ListItem>
       <ListItem
         button
@@ -59,7 +104,16 @@ function Sidebar() {
         to="/contact"
         onClick={toggleDrawer(false)}
       >
-        <ListItemText primary="Contact" />
+        <ListItemText
+          primary="Contact"
+          sx={{
+            fontWeight: "bold",
+            fontStyle: "italic",
+            fontSize: "1.2rem",
+            color: "black",
+            textShadow: "1px 1px 2px white, -1px -1px 2px white",
+          }}
+        />
       </ListItem>
       <ListItem
         button
@@ -67,7 +121,16 @@ function Sidebar() {
         to="/merchandise"
         onClick={toggleDrawer(false)}
       >
-        <ListItemText primary="Merchandise" />
+        <ListItemText
+          primary="Merchandise"
+          sx={{
+            fontWeight: "bold",
+            fontStyle: "italic",
+            fontSize: "1.2rem",
+            color: "black",
+            textShadow: "1px 1px 2px white, -1px -1px 2px white",
+          }}
+        />
       </ListItem>
     </List>
   );

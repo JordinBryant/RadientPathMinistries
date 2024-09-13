@@ -19,7 +19,17 @@ function Header() {
       <Toolbar>
         <Sidebar open={sidebarOpen} onClose={toggleSidebar} />
 
-        <Typography variant="h6" sx={{ flexGrow: 1 }}>
+        <Typography
+          variant="h6"
+          sx={{
+            flexGrow: 1,
+            color: "black",
+            textShadow: "1px 1px 2px white, -1px -1px 2px white",
+            fontWeight: "bold",
+            fontFamily: "cursive",
+            padding: 2,
+          }}
+        >
           Radiant Path Ministries
         </Typography>
       </Toolbar>

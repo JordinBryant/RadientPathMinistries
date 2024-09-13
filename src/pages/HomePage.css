@@ -1,8 +1,3 @@
-/* Apply background color to the parent container of .home-page */
-.parent-container {
-  background-color: #ffb300;
-}
-
 
 .home-page {
   position: relative;
