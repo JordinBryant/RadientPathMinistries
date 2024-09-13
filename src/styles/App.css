@@ -1,0 +1,24 @@
+/* App.css */
+html, body {
+    margin: 0;
+    height: 100%;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+  }
+  
+  .main-layout {
+    flex: 1; /* Takes up all available space between header and footer */
+  }
+  
+  footer {
+    background-color: #282c34; /* Ensure the footer color matches */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: 100%; /* Full width */
+  }
+  
