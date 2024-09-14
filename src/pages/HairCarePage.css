@@ -1,147 +1,186 @@
 /* Overall Page Styling */
 .hair-care-page {
-  font-family: 'Poppins', sans-serif;
-  color: #333;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-/* Header */
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
-}
-
-.header h1 {
-  font-size: 2rem;
-  color: #1c191a; /* cute pink */
-}
-
-.nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.nav a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-}
-
-/* Hero Section */
-.hero {
-  background-color: white;
-  padding: 80px 20px;
-  text-align: center;
-  border-radius: 12px;
-  margin-bottom: 40px;
-}
-
-.hero h2 {
-  font-size: 2.5rem;
-  color: black;
-  margin-bottom: 10px;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  color: #555;
-}
-
-.cta-btn {
-  padding: 10px 20px;
-  background-color: #817f80;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-size: 1rem;
-  cursor: pointer;
-}
-
-.cta-btn:hover {
-  background-color: #b3b2b2;
-}
-
-/* Products Section */
-.products {
-  margin-bottom: 40px;
-  text-align: center;
-}
-
-.products h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-.product-list {
-  display: flex;
-  justify-content: space-around;
-  gap: 20px;
-}
-
-.product {
-  text-align: center;
-}
-
-.product img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
-.product h3 {
-  font-size: 1.2rem;
-  margin-bottom: 5px;
-}
-
-/* Tips Section */
-.tips {
-  background-color: #fff7f9;
-  padding: 40px 20px;
-  border-radius: 12px;
-  margin-bottom: 40px;
-  text-align: center;
-}
-
-.tips h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-.tips-list {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-}
-
-.tip h4 {
-  font-size: 1.2rem;
-  color: #160109;
-  margin-bottom: 10px;
-}
-
-.tip p {
-  color: #555;
-  font-size: 1rem;
-}
-
-/* Footer */
-.footer {
-  text-align: center;
-  padding: 20px 0;
-  font-size: 0.9rem;
-}
-
-.footer a {
-  color: #5f585b;
-  text-decoration: none;
-}
-
-.footer a:hover {
-  text-decoration: underline;
-}
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+    color: #1c1c1c; /* cute pink */
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #ffffff;
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 40px;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    color: #040404;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .cta-btn {
+    padding: 10px 20px;
+    background-color: #747474;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .cta-btn:hover {
+    background-color: #191718;
+  }
+  
+  /* Products Section */
+  .products {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .products h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .product-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap; /* Allows wrapping of items for smaller screens */
+  }
+  
+  .product {
+    text-align: center;
+    flex: 1 1 30%; /* Products take up 30% of the width on larger screens */
+    margin: 10px;
+  }
+  
+  .product img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .product h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  /* Tips Section */
+  .tips {
+    background-color: #fff7f9;
+    padding: 40px 20px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .tips h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .tips-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap; /* Wrap the tips on smaller screens */
+  }
+  
+  .tip h4 {
+    font-size: 1.2rem;
+    color: #100f0f;
+    margin-bottom: 10px;
+  }
+  
+  .tip p {
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+  }
+  
+  .footer a {
+    color: #fdfcfc;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Mobile Specific Adjustments */
+  @media (max-width: 768px) {
+    /* Header */
+    .header {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    /* Hero Section */
+    .hero h2 {
+      font-size: 2rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+    }
+  
+    .cta-btn {
+      font-size: 0.9rem;
+    }
+  
+    /* Products Section */
+    .product {
+      flex: 1 1 100%; /* Take full width on small screens */
+      margin: 10px 0;
+    }
+  
+    /* Tips Section */
+    .tips-list {
+      flex-direction: column;
+    }
+  }
+  
