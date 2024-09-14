@@ -26,6 +26,13 @@ const HairPage = () => {
       <section className="hero">
         <div className="hero-content">
           <h2>Let Your Hair Shine</h2>
+          <h5>
+            1 Corinthians 11:15 But if a woman has long hair, it is a glory to
+            her; for her hair is given to her for a covering.
+          </h5>
+          <h5>
+            Matthew 10:30 And even the very hairs of your head are all numbered.
+          </h5>
           <p>Discover organic products and tips for radiant, healthy hair.</p>
           <button className="cta-btn">Shop Now</button>
         </div>
