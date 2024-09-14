@@ -10,6 +10,7 @@ import WealthPage from "./pages/WealthPage"; // Make sure to create or import th
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import Merchandise from "./pages/Merchandise";
+import Donate from "./pages/DonatePage";
 import "./App.css";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
               <Route path="/about" element={<AboutPage />} />
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/merchandise" element={<Merchandise />} />
+              <Route path="/donate" element={<Donate />} />
             </Routes>
           </main>
         </div>

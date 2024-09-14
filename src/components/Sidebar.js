@@ -132,6 +132,23 @@ function Sidebar() {
           }}
         />
       </ListItem>
+      <ListItem
+        button
+        component={Link}
+        to="/donate"
+        onClick={toggleDrawer(false)}
+      >
+        <ListItemText
+          primary="Donate"
+          sx={{
+            fontWeight: "bold",
+            fontStyle: "italic",
+            fontSize: "1.2rem",
+            color: "black",
+            textShadow: "1px 1px 2px white, -1px -1px 2px white",
+          }}
+        />
+      </ListItem>
     </List>
   );
 
