@@ -78,7 +78,7 @@ const HairPage = () => {
       <footer className="footer" id="contact">
         <p>© 2024 Radiant Hair Care. All rights reserved.</p>
         <p>
-          Follow us on <a href="#">Instagram</a> | <a href="#">Facebook</a>
+          {/* Follow us on <a href="#">Instagram</a> | <a href="#">Facebook</a> */}
         </p>
       </footer>
     </div>
