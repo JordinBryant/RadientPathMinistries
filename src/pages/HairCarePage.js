@@ -22,15 +22,43 @@ const HairPage = () => {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <h2>Let Your Hair Shine</h2>
-          <h5>
-            1 Corinthians 11:15 But if a woman has long hair, it is a glory to
-            her; for her hair is given to her for a covering.
-          </h5>
-          <h5>
-            Matthew 10:30 And even the very hairs of your head are all numbered.
-          </h5>
-          <p>Discover organic products and tips for radiant, healthy hair.</p>
+          <h2 className="hero-title">Let Your Hair Shine</h2>
+
+          <div className="scripture-block">
+            <blockquote className="scripture">
+              <h5>
+                1 Corinthians 11:15 - But if a woman has long hair, it is a
+                glory to her; for her hair is given to her for a covering.
+              </h5>
+              <h5>
+                Luke 12:7 - Indeed, the very hairs of your head are all
+                numbered. Don’t be afraid; you are worth more than many
+                sparrows.
+              </h5>
+              <h5>
+                Proverbs 16:31 - Gray hair is a crown of splendor; it is
+                attained in the way of righteousness.
+              </h5>
+              <h5>
+                Matthew 10:30 - And even the very hairs of your head are all
+                numbered.
+              </h5>
+            </blockquote>
+          </div>
+
+          <div className="hero-message">
+            <h4>
+              As reflected in the scriptures above, and in many others
+              throughout the Bible, hair holds significant spiritual meaning. It
+              is a symbol of beauty, identity, and divine connection. This is
+              why it's essential to give it the utmost care and attention,
+              recognizing its deeper value beyond just appearance.
+            </h4>
+          </div>
+
+          <p className="hero-description">
+            Discover organic products and tips for radiant, healthy hair.
+          </p>
           <button className="cta-btn">Shop Now</button>
         </div>
       </section>
