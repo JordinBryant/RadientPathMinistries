@@ -6,18 +6,7 @@ const DonatePage = () => {
     <div className="donate-page">
       <h2>Support Our Mission</h2>
       <p>
-        Your generosity helps us continue our work. Every contribution counts!
-      </p>
-
-      <form className="donation-form">
-        <label htmlFor="amount">Donation Amount ($):</label>
-        <input
-          type="number"
-          id="amount"
-          name="amount"
-          placeholder="Enter amount"
-          required
-        />
+        Your generosity helps us continue our work. Every contribution counts!!
 
         <label htmlFor="payment-method">Payment Method:</label>
         <select id="payment-method" name="payment-method" required>
