@@ -26,9 +26,9 @@ function App() {
               <Route path="/hair-care" element={<HairCarePage />} />
               <Route path="/biblical-diet" element={<DietPage />} />
               <Route path="/biblical-wealth" element={<WealthPage />} />
+              <Route path="/merchandise" element={<Merchandise />} />
               <Route path="/about" element={<AboutPage />} />
               <Route path="/contact" element={<ContactPage />} />
-              <Route path="/merchandise" element={<Merchandise />} />
               <Route path="/donate" element={<Donate />} />
             </Routes>
           </main>

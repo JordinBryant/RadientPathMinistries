@@ -84,6 +84,23 @@ function Sidebar() {
       <ListItem
         button
         component={Link}
+        to="/merchandise"
+        onClick={toggleDrawer(false)}
+      >
+        <ListItemText
+          primary="Merchandise"
+          sx={{
+            fontWeight: "bold",
+            fontStyle: "italic",
+            fontSize: "1.2rem",
+            color: "black",
+            textShadow: "1px 1px 2px white, -1px -1px 2px white",
+          }}
+        />
+      </ListItem>
+      <ListItem
+        button
+        component={Link}
         to="/about"
         onClick={toggleDrawer(false)}
       >
@@ -106,23 +123,6 @@ function Sidebar() {
       >
         <ListItemText
           primary="Contact"
-          sx={{
-            fontWeight: "bold",
-            fontStyle: "italic",
-            fontSize: "1.2rem",
-            color: "black",
-            textShadow: "1px 1px 2px white, -1px -1px 2px white",
-          }}
-        />
-      </ListItem>
-      <ListItem
-        button
-        component={Link}
-        to="/merchandise"
-        onClick={toggleDrawer(false)}
-      >
-        <ListItemText
-          primary="Merchandise"
           sx={{
             fontWeight: "bold",
             fontStyle: "italic",

@@ -1,9 +1,12 @@
-/* AboutPage.css */
 .about-page {
-    background-color: #ffffff;
-    padding: 4rem 2rem;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-  }
-  
+  background-color: #f5f5f5; /* Light background for contrast */
+  padding: 20px;
+}
+
+h1 {
+  color: #3f51b5; /* Primary color */
+}
+
+h6 {
+  color: #1976d2; /* Secondary color for subheadings */
+}
