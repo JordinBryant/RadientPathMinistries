@@ -1,80 +1,63 @@
-.diet-page {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .diet-header {
-    text-align: center;
-    background-color: #f5f5f5;
-    padding: 30px;
-    border-radius: 10px;
-  }
-  
-  .diet-header h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-  }
-  
-  .diet-header p {
-    font-size: 1.2em;
-    color: #555;
-  }
-  
-  .diet-overview {
-    margin: 30px 0;
-    text-align: center;
-  }
-  
-  .diet-overview h2 {
-    font-size: 2em;
-    margin-bottom: 15px;
-  }
-  
-  .diet-overview p {
-    font-size: 1.2em;
-    line-height: 1.6;
-    color: #333;
-  }
-  
-  .diet-scriptures {
-    margin: 40px 0;
-    background-color: #e0f7fa;
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-  .diet-scriptures h2 {
-    font-size: 2em;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .scripture blockquote {
-    font-style: italic;
-    font-size: 1.2em;
-    color: #00796b;
-    margin: 20px 0;
-  }
-  
-  .diet-tips {
-    margin: 30px 0;
-  }
-  
-  .diet-tips h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  .diet-tips ul {
-    list-style-type: disc;
-    padding-left: 40px;
-  }
-  
-  .diet-tips li {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
+/* Page Styling */
+.donate-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #f4f4f9;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.donate-page h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.donate-page p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+/* Form Styling */
+.donation-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.donation-form label {
+  display: block;
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.donation-form input,
+.donation-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.donate-btn {
+  background-color: #27ae60;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.donate-btn:hover {
+  background-color: #2ecc71;
+}
