@@ -1,3 +1,4 @@
+// pages/DietPage.js
 import React from "react";
 import "./DietPage.css";
 
@@ -66,6 +67,39 @@ const DietPage = () => {
             health.
           </li>
         </ul>
+      </section>
+
+      {/* Recipes Section */}
+      <section className="diet-recipes">
+        <h2>Healthy Recipes</h2>
+        <div className="recipe-list">
+          <div className="recipe">
+            <h3>Quinoa Salad</h3>
+            <p>
+              A refreshing salad made with quinoa, vegetables, and a lemon
+              dressing.
+            </p>
+          </div>
+          <div className="recipe">
+            <h3>Grilled Vegetable Medley</h3>
+            <p>Seasonal vegetables grilled to perfection, served with herbs.</p>
+          </div>
+          <div className="recipe">
+            <h3>Fruit Smoothie</h3>
+            <p>A delicious blend of fruits, yogurt, and a splash of honey.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Photo Gallery Section */}
+      <section className="diet-gallery">
+        <h2>Photo Gallery</h2>
+        <div className="gallery">
+          <img src="/images/honey.jpg" alt="Healthy Meal 1" />
+          <img src="/images/veges2.jpg" alt="Healthy Meal 2" />
+          <img src="/images/chiaseeds.jpg" alt="Healthy Meal 3" />
+          <img src="/images/meat.jpg" alt="Healthy Meal 4" />
+        </div>
       </section>
     </div>
   );
