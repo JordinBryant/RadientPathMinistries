@@ -1,8 +1,86 @@
+/* Global Styling */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  color: #2c3e50;
+}
+
+/* Wealth Page Styling */
 .wealth-page {
-  background-color: #ffffff;
-  padding: 4rem 2rem;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Header Section */
+.wealth-header {
+  background-image: linear-gradient(to right, #56ab2f, #a8e063);
+  color: white;
+  padding: 50px 20px;
   border-radius: 8px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wealth-header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.wealth-header p {
+  font-size: 1.2rem;
+}
+
+/* Wealth Content Sections */
+.wealth-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wealth-section {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.wealth-section:hover {
+  transform: translateY(-5px);
+}
+
+.wealth-section h2 {
+  color: #34495e;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.wealth-section p,
+.wealth-section ul {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+}
+
+.wealth-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.wealth-section ul li {
+  margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .wealth-content {
+    grid-template-columns: 1fr;
   }
-  
+
+  .wealth-header h1 {
+    font-size: 2.5rem;
+  }
+}
